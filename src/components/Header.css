@@ -1,0 +1,12 @@
+.MuiListItem-button:hover {
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #fff!important;
+}
+.MuiListItem-button:hover .MuiTypography-displayBlock {
+    color: #3f51b5;
+    padding-top: 2px;
+}
+ .MuiTypography-displayBlock { color: #fff; padding-top: 20px; }
+
+.MuiTypography-body1 { font-weight: 600!important;}

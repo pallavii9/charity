@@ -1,0 +1,77 @@
+footer .flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+    padding:  0;    
+    background:#212121;
+  }
+  footer {
+    display: inline-block;
+    width: 100%;
+  }
+  footer li {
+    font-size: 15px;
+    color: #fff;
+    text-align: left;
+  }
+  footer h3 {
+    background-color: #313131;
+    color: #fff;
+    margin: 0;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 15px 5%;
+  }
+footer .flex-item {
+    padding: 0;
+    flex: 50%;
+  }
+  footer .ft-logo img {
+    height: 70px;
+}
+
+footer .ft-logo p {
+  padding-top: 10px;
+    margin-top: 0;
+    font-size: 14px;
+    color: #fff;
+    line-height: 25px;
+}
+footer span {
+  text-align: left;
+    font-size: 15px;
+    color: #fff;
+    padding: 5px 10px;
+}
+footer .ft-desc h4 {
+  color: #fff;
+    margin: 10px 0;
+    font-size: 25px;
+    text-align: left;
+}
+footer .ft-desc {
+  padding-left: 10%;
+    padding-top: 3%;
+}
+footer .ft-desc p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+}
+footer .ft-links ul {
+    padding: 0;
+    margin: 0;
+}
+footer li { list-style-type: none; text-decoration: none; line-height: 35px;}
+footer .ft-links li a { 
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+}
+
+  @media (max-width: 768px) {
+    footer .flex-container {
+      flex-direction: column;
+    }
+  }
