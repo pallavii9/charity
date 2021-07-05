@@ -1,0 +1,56 @@
+.contact-form {
+    width: 39%;
+    padding: 59px 53px 20px;
+    background-color: #f9f9f9;
+    float: left;
+}
+.contact-section h4 {
+    color: #4353a0;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+}
+.contact-section .left-li {
+    width: 45%;
+    float: left;
+}
+.contact-section .right-li {
+    width: 50%;
+    float: right;
+}
+.contact-section input, .contact-section textarea {
+    width: 100%;
+    float: left;
+    margin: 10px 0 20px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding-left: 10px;
+}
+.contact-section button {
+    background: #000;
+    color: #fff;
+    padding: 15px 30px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 15px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    width: 100%;
+    margin: 3% auto;
+}
+
+.contactImg {
+    width: 53%;
+    float: right;
+}
+.contactImg img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+    .contact-section {
+        width: 70%;
+        margin: 30px 6px;
+    }
+}
